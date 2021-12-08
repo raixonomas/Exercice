@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Exercice5</name>
+    </assembly>
+    <members>
+        <member name="T:Exercice5.Tapis">
+            <summary>
+            Cette classe permet de gérer des tapis
+            </summary>
+        </member>
+        <member name="M:Exercice5.Tapis.#ctor(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Permet d'initialiser un tapis
+            </summary>
+            <param name="nom"></param>
+            <param name="dimensionX"></param>
+            <param name="dimensionY"></param>
+            <param name="couleur"></param>
+        </member>
+        <member name="M:Exercice5.Tapis.ChangeNom(System.String)">
+            <summary>
+            Permet de changer le nom d'un tapis
+            </summary>
+            <param name="nom"></param>
+        </member>
+        <member name="M:Exercice5.Tapis.GetSuperficie">
+            <summary>
+            Retourne l'aire du tapis
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
